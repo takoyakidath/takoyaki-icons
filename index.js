@@ -1,8 +1,8 @@
 const imageList = [
-  'cat.png',
-  'dog.jpg',
-  'flower.png',
-  // 必要なファイル名をここに追加
+  'takoyaki-1-remove.png',
+  'takoyaki-1.png',
+  'takoyaki-ai1.png',
+  'takoyaki-human.png',
 ];
 
 const gallery = document.getElementById('gallery');

@@ -2,20 +2,27 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>画像ギャラリー</title>
+  <title>たこやきアイコンギャラリー</title>
   <style>
-    body { font-family: sans-serif; padding: 20px; }
+    body { font-family: sans-serif; padding: 20px; background: #fff8f0; }
     .gallery { display: flex; flex-wrap: wrap; gap: 10px; }
-    .gallery img { max-width: 200px; height: auto; border: 1px solid #ccc; }
+    .gallery img { max-width: 200px; border: 1px solid #ccc; border-radius: 8px; }
+    footer { margin-top: 40px; font-size: 0.8em; color: #777; }
   </style>
+  <!--
+    Copyright (c) 2025 takoyakidath
+    All rights reserved.
+    本HTMLおよび関連ファイルの無断転載・再利用・改変を禁じます。
+  -->
 </head>
 <body>
-  <h1>画像ギャラリー</h1>
+  <h1>たこやきアイコンギャラリー</h1>
   <div class="gallery" id="gallery"></div>
 
-  <script src="script.js"></script>
-<footer style="margin-top: 40px; font-size: 0.8em; color: #777;">
-  &copy; 2025 takoykaidath. All rights reserved. 無断転載・再利用を禁じます。
-</footer>
+  <footer>
+    &copy; 2025 takoyakidath. All rights reserved. 無断転載・再利用を禁じます。
+  </footer>
+
+  <script src="index.js"></script>
 </body>
 </html>
